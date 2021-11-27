@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main()
+{
+    int a;
+    int b=1000;
+    floatc;
+    printf("enter the no of kilometers");
+    scanf(%d,&a);
+    printf("one kilometer in meters"):
+    c=a*b;
+    printf(distance %f,c);
+    
+    return 0;
+}

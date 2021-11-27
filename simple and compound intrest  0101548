@@ -1,0 +1,25 @@
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+float p,t,r,si,ci;
+    //input of principal value
+    printf("enter the principal value (p):");
+    scanf("%f",&p);
+    //input of time
+    printf("enter time (in year) (t):");
+    scanf("%f",&t);
+    //input of rate
+    printf("enter the rate of intrest (r):");
+    scanf("%f",&r);
+    
+    /*calculating simple intrest*/
+     si=(p*t*r)/100;
+     /*calculating the compound intrest*/
+     ci=p*(pow(1+r/100,t)-1);
+    printf("simple intrest  =%0.3f\n",si);
+    printf("compound intrest=%0.3f",ci);
+    getch();
+    return 0;
+    }

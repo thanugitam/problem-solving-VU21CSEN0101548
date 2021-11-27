@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include<conio.h>
+int main()
+{
+int M,eng,chem,phy,hindi;
+printf("enter the marks of the subjects M ");
+scanf("%d",&M);
+printf("enter the marks of the subjects eng");
+scanf("%d",&eng);
+printf("enter the marks of the subjects chem");
+scanf("%d",&chem);
+printf("enter the marks  of the subject phy");
+scanf("%d",&phy);
+printf("enter the marks of the subject hindi");
+scanf("%d",&hindi);
+//calculate the total of five subjects
+int sum;
+//calculate the avg of five subjects
+int avg=sum/5
+//calculate the total percentage of five subject
+;int percentage=sum/500*100
+;}
+
+    return0;
+
